@@ -13,6 +13,7 @@ $("input[type='text']").keypress(function(enter){
 	if(enter.which === 13){
 		var newtext = $(this).val();
 		$(this).val("");
-		$("ul").append("<li><span>X </span>" + newtext + "</li>")
+		$("ul").append("<li><span><i class='fa fa-trash'></i> </span>" + newtext + "</li>")
 	}
-})
+});
+

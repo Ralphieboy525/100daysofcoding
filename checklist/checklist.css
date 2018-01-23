@@ -13,26 +13,54 @@ body {
 }
 
 #container {
-	/*border: 2px black solid;*/
-	width: 50%;
-	margin: 0 auto;
-	background: #74ebd5;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border: 2px black solid;
+	width: 360px;
+	margin: 100px auto;
+	/*background: #667db6;*/  /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); */ /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
-	width: 50%;
-	margin: 0 auto;
 	/*border: 2px solid black;*/
 	text-align: center;
 	color: white;
-	background: #74ebd5;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
 ul {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	line-height: 30px;
+	height: 30px;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1;
+}
+
+input {
+	font-size: 16px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 6px 6px 6px 10px;
+	box-sizing: border-box;
+}
+
+
+span {
+	height: 30px;
+	margin-right: 5px;
+	text-align: center;
+	width: 0;
+	display: inline-block;
+	color: rgb(251, 255, 20);
+	opacity: 0;
+	transition: 0.3s linear;
 }
