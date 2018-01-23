@@ -1,23 +1,36 @@
 body {
 	margin: 0;
 	padding: 0;
-}
+	background-color: black;
+	background: #667db6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-#container {
-	border: 2px black solid;
-	width: 50%;
-	margin: 0 auto;
-}
-
-h1 {
-/*	width: 50%;
-	margin: 0 auto;
-	border: 2px solid black;*/
-	text-align: center;
 }
 
 .completed {
 	text-decoration: line-through;
+}
+
+#container {
+	/*border: 2px black solid;*/
+	width: 50%;
+	margin: 0 auto;
+	background: #74ebd5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+	width: 50%;
+	margin: 0 auto;
+	/*border: 2px solid black;*/
+	text-align: center;
+	color: white;
+	background: #74ebd5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 ul {
