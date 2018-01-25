@@ -1,0 +1,41 @@
+#container {
+/*	border: 2px solid black;*/
+	border: 2px solid black;
+	width: 360px;
+	height: 360px;
+	margin: 0 auto;
+}
+
+.side6 {
+	background: url(six.png);
+	background-size: 360px 360px;
+}
+
+.side5 {
+	background: url(five.png);
+	background-size: 360px 360px;
+}
+
+.side4 {
+	background: url(four.png);
+	background-size: 360px 360px;
+}
+
+.side3 {
+	background: url(three.png);
+	background-size: 360px 360px;
+}
+
+.side2 {
+	background: url(two.png);
+	background-size: 360px 360px;
+}
+
+.side1 {
+	background: url(one.png);
+	background-size: 360px 360px;
+}
+
+div {
+	/*background: black;*/
+}
