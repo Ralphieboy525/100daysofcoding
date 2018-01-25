@@ -1,4 +1,4 @@
-var roll = document.querySelector("div");
+var roll = document.querySelector("#container");
 var die = document.querySelector("button");
 var cssClass = ['side1', 'side2', 'side3', 'side4', 'side5', 'side6'];
 // die.addEventListener("click", function(e){
