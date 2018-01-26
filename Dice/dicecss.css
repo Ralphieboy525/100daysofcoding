@@ -1,9 +1,11 @@
 #container {
 /*	border: 2px solid black;*/
-	border: 2px solid black;
+	border: 5px solid black;
 	width: 360px;
 	height: 360px;
 	margin: 0 auto;
+	border-radius: 50px;
+	margin-bottom: 20px;
 }
 
 .side6 {
@@ -44,7 +46,9 @@ div {
 	width: 250px;
 	height: 50px;
 	margin: 0 auto;
+	border-radius: 25px;
 }
+
 
 button {
 	width: 250px;
@@ -53,4 +57,9 @@ button {
 	background-color: black;
 	color: red;
 	border: 2px red solid;
+	border-radius: 25px;
+}
+
+button:focus {
+	border-radius: 25px;
 }
